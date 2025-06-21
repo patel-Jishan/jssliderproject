@@ -1,0 +1,103 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+         background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        button {
+            font-size: 2rem;
+            padding: 10px 20px;
+            cursor: pointer;
+            background: linear-gradient(45deg, #ff8a00, #e52e71);
+            border: none;
+            border-radius: 30%;
+            transition: background-color 0.3s;
+        }
+
+       
+
+        .main2 {
+        width: 70%;
+        height: 80vh;
+        position: relative;
+        border-radius: 100px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+            }
+            .main2:hover{
+                transform: scale(0.89);
+                background-color: linear-gradient(7deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+            }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); 
+            backdrop-filter: blur(5px); 
+            z-index: 1; 
+        }
+
+        #Riderimg {
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            object-position: center;
+            margin: 15px 0;
+            z-index: 2;
+            border:5px solid rgba(255, 255, 255, 0.2); 
+        }
+        #Riderimg:hover {
+            transform: scale(1.05);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        h1, h2, h3 {
+            margin: 10px 0; 
+            z-index: 2; 
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ff8a00;
+        }
+
+        h2 {
+            font-size: 2rem; 
+            color:rgb(141, 108, 108);
+
+            border-radius: 40px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            background: linear-gradient(45deg, #e52e71, #ff8a00);
+            border-radius: 20%;
+        }
+        #R{
+            text-align: center;
+            color:#0aa3ce;
+            font-style:italic;
+            font-size: 70px;
+            position: absolute;
+            top: 50px;
+            
+            font-weight: 700px;
+            text-shadow:#ff8a00;
+        }
